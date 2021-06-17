@@ -191,7 +191,6 @@ header .wrapper nav ul li a {
   width: 100%;
   padding: 20px 0;
   cursor: pointer;
-  border-bottom: 1px solid #f6ac4d;
 }
 
 /* メイン */
@@ -395,6 +394,7 @@ footer {
   header .wrapper nav ul li a {
     margin-top: 30px;
     padding: 0;
+    border-bottom: 1px solid #f6ac4d;
   }
   /* about */
   .about {

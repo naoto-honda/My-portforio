@@ -178,7 +178,6 @@ header {
           width: 100%;
           padding: 20px 0;
           cursor: pointer;
-          border-bottom: 1px solid #f6ac4d;
         }
       }
     }
@@ -385,6 +384,7 @@ footer {
             a {
               margin-top: 30px;
               padding: 0;
+              border-bottom: 1px solid #f6ac4d;
             }
           }
        }
