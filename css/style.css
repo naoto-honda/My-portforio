@@ -1,0 +1,470 @@
+@charset "UTF-8";
+/* リセットCSS */
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* リセットCSS終わり */
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  border: none;
+  vertical-align: bottom;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+a:hover {
+  color: #f6ac4d;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+  display: inline-block;
+  border-bottom: 3px solid #f6ac4d;
+}
+
+/* ヘッダー */
+header {
+  margin-bottom: 50px;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .wrapper h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px 0;
+  padding-left: 10px;
+}
+
+header .wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header .wrapper nav ul li {
+  width: 50%;
+  text-align: center;
+  border: 1px solid #d9d9d9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .wrapper nav ul li a {
+  width: 100%;
+  padding: 20px 0;
+  cursor: pointer;
+  border-bottom: 1px solid #f6ac4d;
+}
+
+/* メイン */
+/* about */
+#about {
+  padding: 0 30px;
+  margin-bottom: 80px;
+}
+
+#about .about .main-visual img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+#about .about .profile-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#about .about .profile-text h3 {
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+#about .about .profile-text p {
+  line-height: 1.8;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+/* skill */
+#skill {
+  padding: 0 30px;
+  margin-bottom: 40px;
+}
+
+#skill .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#skill .skills .skill {
+  margin-bottom: 50px;
+}
+
+#skill .skills .skill h3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+#skill .skills .skill i.fas,
+#skill .skills .skill .fab {
+  font-size: 3rem;
+  color: #a5a5a5;
+  margin-bottom: 10px;
+}
+
+#skill .skills .skill p {
+  font-size: 0.7rem;
+  line-height: 1.8;
+  padding: 0 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* works */
+#works {
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+#works ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#works ul li {
+  margin: 0 auto 40px;
+  width: 300px;
+  text-align: center;
+}
+
+#works ul li a img {
+  width: 100%;
+  height: 250px;
+  border: 1px solid black;
+}
+
+#works ul li a:hover {
+  cursor: pointer;
+}
+
+/* contact */
+#contact {
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+
+#contact form {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contact form .form-content {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+#contact form .form-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact form .form-content input {
+  display: block;
+  width: 100%;
+}
+
+#contact form .form-content textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+
+#contact form button {
+  display: block;
+  background-color: #535252;
+  color: #fff;
+  width: 250px;
+  padding: 16px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#contact form button:hover {
+  opacity: 0.8;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: #535252;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+
+/* レスポンシブCSS */
+@media screen and (min-width: 760px) {
+  .wrapper {
+    max-width: 920px;
+    margin: 0 auto;
+  }
+  /* header */
+  header .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 40px;
+  }
+  header .wrapper nav ul {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 20px 10px;
+  }
+  header .wrapper nav ul li {
+    border: none;
+    margin-left: 50px;
+  }
+  header .wrapper nav ul li a {
+    margin-top: 30px;
+    padding: 0;
+  }
+  /* about */
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 3%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about .main-visual {
+    width: 50%;
+    display: block;
+    margin: 0 30px;
+  }
+  .about .main-visual img {
+    margin: 0;
+  }
+  .about .profile-text {
+    width: 50%;
+  }
+  /* skill */
+  #skill .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #skill .skills .skill {
+    width: 30%;
+  }
+  #skill .skills .skill p {
+    width: 90%;
+  }
+  /* works */
+  #works {
+    margin: 0 auto 60px;
+  }
+  #works ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #works ul li {
+    width: 30%;
+  }
+  #works ul li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #works ul li img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

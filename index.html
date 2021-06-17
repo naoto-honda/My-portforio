@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naoto Honda</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <script src="https://kit.fontawesome.com/ab7fd63b71.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+      <div class="wrapper">
+        <h1>Naoto Honda</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header -->
+  
+    <!-- main -->
+    <main>
+      <!-- about -->
+      <section id="about" class="wrapper">
+        <h2>About</h2>
+        <div class="about">
+          <div class="main-visual">
+            <img src="img/image0.jpeg">
+          </div>
+          <div class="profile-text">
+            <h3>本多直人</h3>
+            <p>【経歴】<br>
+              2017年：埼玉県昌平高等学校卒業。<br>
+              2019年：２浪し立教大学に入学。<br>
+              2021年〜現在：Web制作フリーランスを目指し、学習開始。<br>
+              <br>
+              【可能な業務内容】<br>
+              ・HTML&CSS(Sass)/jQuery(JavaScript)を使ったコーディング<br>
+              ・レスポンシブ対応、スマートフォンファースト対応したWebサイト制作<br>
+              ・Bootstrapを使用したコーディング<br>
+              ・WordPressの導入、サイト構築、改修</p>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+
+      <!-- skill -->
+      <section id="skill" class="wrapper">
+        <h2>Skill</h2>
+        <div class="skills">
+          <div class="skill">
+            <h3>HTML/CSS</h3>
+            <i class="fas fa-code"></i>
+            <p>HTML&CSSによるコーディングを行っています。「レスポンシブデザイン」「スマホファースト」「キレイなコーディング」を意識して行っています。</p>
+          </div>
+
+          <div class="skill">
+            <h3>jQuery/JavaScript</h3>
+            <i class="fas fa-pen-nib"></i>
+            <p>開閉式のQ&AやスクロールボタンなどのWebサイトでは基本的な動きをjQueryやJavaScriptでつけることができます。</p>
+          </div> 
+          <div class="skill">
+            <h3>WordPress</h3>
+            <i class="fab fa-wordpress"></i>
+            <p>HTML/CSSでコーディングされたものをワードプレス化したり、テンプレートを使ったカスタマイズを行うことができます。</p>
+          </div> 
+        </div>
+
+      </section>
+      <!-- skill -->
+
+      <!-- works -->
+      <section id="works" class="wrapper">
+        <h2>Works</h2>
+        <ul class="works">
+          <li class="work">
+            <p class="photo">
+              <a href="https://naoto-honda.github.io/My-portforio-work1/">
+                <img src="img/isara-coding.png">
+              </a>
+            </p>
+          </li>
+          <li class="work">
+            <p class="photo">
+              <a href="https://naoto-honda.github.io/My-portforio-work2/">
+                <img src="img/portforio-work2.png">
+              </a>
+            </p>
+          </li>
+          <li class="work">
+            <p class="photo">
+              <a href="https://naoto-honda.github.io/My-portforio-work3/">
+                <img src="img/portforio-work3.png">
+              </a>
+            </p>
+          </li>
+          <li class="work">
+            <p class="photo">
+              <a href="https://naoto-honda.github.io/My-portforio-work4/">
+                <img src="img/portforio-work4.png">
+              </a>
+            </p>
+          </li>
+          <li class="work">
+            <p class="photo">
+              <a href="https://naoto-honda.github.io/My-portforio-work5/">
+                <img src="img/portforio-work5.png">
+              </a>
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="wrapper">
+        <h2>Contact</h2>
+        <div class="form">              
+          <!-- class, action, methodを変更しないでください -->
+          <form class="formrun" action="https://form.run/api/v1/r/y6bvrdlws8lqprxmezkmircj" method="post">
+            <!-- ↓自由に要素を追加・編集することができます -->
+            <div class="form-content">
+              <label>お名前</label>
+              <input name="お名前" type="text">
+            </div>
+
+            <div class="form-content">
+              <label>メールアドレス [必須]</label>
+              <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+              <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+            </div>
+
+            <div class="form-content">
+              <label>お問い合わせ [必須]</label>
+              <textarea name="お問い合わせ" data-formrun-required></textarea>
+              <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+            </div>
+
+            <!-- ボット投稿をブロックするためのタグ -->
+            <div class="_formrun_gotcha">
+              <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+              <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+              <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+            </div>
+
+            <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+          </form>
+        </div>
+      </section>
+      <!-- works -->
+        </main>
+    <!-- main -->
+ 
+
+  <!-- footer -->
+  <footer>
+    <div class="wrapper">
+      <p>&copy; naoto honda</p>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
