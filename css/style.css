@@ -387,7 +387,6 @@ footer {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    padding: 0 3%;
     align-items: center;
   }
   .about .main-visual {
@@ -415,7 +414,7 @@ footer {
   }
   /* works */
   #works {
-    margin: 0 auto 60px;
+    margin: 0 5% 60px;
   }
   #works ul {
     flex-direction: row;
