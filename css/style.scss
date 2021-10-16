@@ -201,7 +201,7 @@ header {
 /* メイン */
 /* about */
 #about {
-  padding: 0 30px;
+  padding: 0 40px;
   margin-bottom: 80px;
 
   .about {
@@ -243,7 +243,7 @@ header {
 
 /* skill */
 #skill {
-  padding: 0 30px;
+  padding: 0 40px;
   margin-bottom: 40px;
 
   .skills {
@@ -284,14 +284,14 @@ header {
 /* works */
 #works {
   padding: 0 20px;
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
 
   ul {
     display: flex;
     flex-direction: column;
 
     li {
-      margin: 0 auto 40px;
+      margin: 0 auto 30px;
       text-align: center;
 
       a {
@@ -451,7 +451,6 @@ footer {
 
   /* works */
   #works {
-    margin: 0 5% 60px;
 
     ul {
       flex-direction: row;
@@ -461,10 +460,6 @@ footer {
 
       li {
         width: 30%;
-
-        &:nth-child(3n) {
-          margin-right: 0;
-        }
         
         img {
           width: 100%;
