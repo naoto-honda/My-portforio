@@ -355,19 +355,19 @@ footer {
 /* レスポンシブCSS */
 @media screen and (min-width: 760px) {
   .wrapper {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto;
   }
   /* header */
   header {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 0 auto 50px;
   }
   header .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 5%;
+    margin: 0 3%;
   }
   header .wrapper nav ul {
     flex-wrap: nowrap;
